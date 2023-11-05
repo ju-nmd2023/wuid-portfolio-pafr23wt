@@ -1,0 +1,94 @@
+* {font-family: 'Dosis', sans-serif;}
+
+/* HEADER */
+
+#logo{
+font-weight: 700;
+font-size: x-large;
+border: 2px solid black;
+display: inline;
+padding: 5px 20px;
+background-color: palevioletred;
+border-radius: 100px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a{
+    color: black; 
+}
+
+/* MAIN */
+body {
+    background-color: mistyrose;
+}
+h1 {
+    text-align: center;
+    color: palevioletred;
+    text-decoration-line: underline;
+    border-top: 1px solid black;
+    margin: 10;
+    padding: 12px
+
+
+}
+
+#mainbody {
+    text-align: justify;
+    padding: 5px;
+}
+
+.main-img {width: 100%;
+border: 1px solid black;
+}
+
+/* CATEGORY SECTION  */
+
+#head2 {
+font-size: 30px;
+padding: 5px;
+}
+.creations {
+
+    text-align: center;
+}
+
+.mycreationsimg {
+    width: 100%;
+    border: 1px solid black;
+ }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* conctact SECTION  */
+
+ #contacthead{
+    font-size: larger;
+    }
+
+.contactinfo{
+text-align: center;
+font-size: medium;
+font-style: unset;
+}
+button{
+    background-color: antiquewhite;
+}
+
+/* FOOTER  */
+
+footer {
+    margin-top: 3rem;
+    background-color: palevioletred;
+    padding: 15px;
+    border-top:  1px solid black 
+}
+#foot {
+    color: white;
+} 
+
