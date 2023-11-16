@@ -33,6 +33,22 @@ a{
     color: black; 
 }
 
+@media screen and (max-width:587px) {
+    header, ul {
+        flex-direction: column;
+        align-items: start;
+    }
+
+ul {
+    margin-top: 1rem;
+}
+
+    li{
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 /* MAIN */
 body {
     background-color: mistyrose;
@@ -75,6 +91,21 @@ padding: 5px;
     grid-template-columns: repeat(2, 1fr);
 }
 
+@media screen and  (max-width: 458px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and  (min-width: 700px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
 /* conctact SECTION  */
 
  #contacthead{
@@ -93,6 +124,20 @@ font-style: unset;
 }
 button{
     background-color: antiquewhite;
+}
+
+/* About SECTION  */
+
+.about {
+    width: 80% ;
+    align-items: center;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#eames{
+    text-align: center;
 }
 
 /* FOOTER  */
