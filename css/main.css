@@ -2,6 +2,13 @@
 
 /* HEADER */
 
+header{
+    display: flex; 
+    list-style: none;
+    padding-left: 10px;
+    align-items:  center;
+}
+
 #logo{
 font-weight: 700;
 font-size: x-large;
@@ -13,8 +20,13 @@ border-radius: 100px;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0px;
+   display: flex;
+   list-style: none;
+   padding-left: 10px;
+}
+
+li{
+    margin-left: 3rem;
 }
 
 a{
@@ -67,7 +79,12 @@ padding: 5px;
 
  #contacthead{
     font-size: larger;
+    text-align: center;
     }
+
+#fill.in{
+align-items: end;
+}
 
 .contactinfo{
 text-align: center;
