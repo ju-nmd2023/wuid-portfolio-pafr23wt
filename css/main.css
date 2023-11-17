@@ -131,12 +131,16 @@ button{
 /* About SECTION  */
 
 .about {
-    width: 80% ;
+    width: 90% ;
     align-items: center;
     border: 1px solid black;
+}
+
+.image-container {
+    padding-top: 2rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
+  }
 
 #eames{
     text-align: center;
