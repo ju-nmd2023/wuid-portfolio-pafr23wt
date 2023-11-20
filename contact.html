@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact information</title>
+    <script src="js/main.js" defer></script>
     <link rel="stylesheet" href="css/main.css">
 
     <p id="logo">Portfolio </p>
@@ -36,13 +37,13 @@
 Here you'll find all the information you need to reach out to me. Feel free to get in touch via phone, email, or social media.
 </p>
 
-<p id="fill.in">
-<form action="/submit_form" 
-label for="name">Name:</label>
-<input type="text" 
-form action="/submit_form" method="post"> 
-<label for="name">E-mail:</label>
- <input type="text">
+<h4 id="heading" >Enter your contact-info here!</h4>
+<label for="Name">Name:</label>
+<input id="input-name" type="text">
+<button id="enter-button" >Enter</button>
+
+<label for="email">E-mail:</label>
+ <input type="text"> <button>Enter</button>
 </p>
 
 <p class="contactinfo">
@@ -50,7 +51,7 @@ Telephone: +46 73 801 34 85  <button class="button"onmousedown="startAnimation()
 
 </p>
 <p class="contactinfo">
-    Email-adress: pafr23wr@ju.se    <button class="button" onmousedown="startAnimation()" onmouseup="stopAnimation()">Send E-mail
+    Email-adress: pafr23wr@ju.se <button class="button" onmousedown="startAnimation()" onmouseup="stopAnimation()">Send E-mail
 </p>
 
 </div>
