@@ -139,7 +139,7 @@ font-style: unset;
 
 
 @keyframes press{
-    % {
+    0% {
         transform: scale(1);
       }
       50% {
